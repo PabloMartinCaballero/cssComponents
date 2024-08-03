@@ -1,1 +1,48 @@
-ECHO est† activado.
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.slider-container{
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    margin: 0 auto;
+    border: solid 3px black;
+}
+
+
+.img-container{
+
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: solid 2px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-grow: 1;
+    font-size: 40px;
+    /*La transici√≥n toma la propiedad que CSS 
+    y el tiempo que demorara en cambiar*/
+
+    transition: 
+    width 2s,
+    background-color 0.5s,
+    font-size 2s
+    ;
+
+}
+
+
+.img-container:hover{
+    flex-grow: 2;
+    width: 400px;
+    background-color: brown;
+    font-size: 80px;
+    transition: all 2s linear;
+}
