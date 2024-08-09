@@ -4,7 +4,27 @@
     box-sizing: border-box;
 }
 
+/*Title*/
+.title-container{
+    border: solid 2px red;
+    display: flex;
+    justify-content: center;
+}
 
+.title-container h1 {
+    font-size: 40px;
+    text-decoration: none;
+    transition: 
+    text-decoration 5s
+    ;
+}
+
+
+
+
+
+
+/*Slider*/
 
 .slider-container{
     display: flex;
@@ -46,3 +66,5 @@
     font-size: 80px;
     transition: all 2s linear;
 }
+
+
